@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Chart.js example</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+      <h1> Les différentes analyses des données</h1>
+
+    <h2> Pourcentage global de résolution des problèmes </h2>
+     <div class="camembert" style="width: 500px;"><canvas id="camembertChart" ></canvas></div>
+
+    <h2> Moyennes et nombres des problèmes résolus </h2>
+     <div  class="moyenne" style="width: 800px;"><canvas id="radarChart" ></canvas></div>
+
+    <h2> Comparer le taux de réussites deux programmes</h2>
+     <div class="comparaison " style="width: 800px;">
+      <canvas id="comparisonChart" width="400" height="400"></canvas> 
+     </div>
+      
+      <select name="select1" id="select1">
+        <option value="">--Please choose an option--</option>
+        <option value="ACE">ACE</option>
+        <option value="Choco">Choco</option>
+        <option value="Picat">Picat</option>
+        <option value="CoSoCo">CoSoCo</option>
+        <option value="Fun-sCOP-cad">Fun-sCOP-cad</option>
+        <option value="Fun-sCOP-glue">Fun-sCOP-glue</option>
+        <option value="Mistral">Mistral</option>
+        <option value="Sat4j-cp">Sat4j-cp</option>
+        <option value="Sat4j-rs">Sat4j-rs</option>
+        <option value="BTD">BTD</option>
+      </select>
+      <select name="select2" id="select2">
+        <option value="">--Please choose an option--</option>
+        <option value="ACE">ACE</option>
+        <option value="Choco">Choco</option>
+        <option value="Picat">Picat</option>
+        <option value="CoSoCo">CoSoCo</option>
+        <option value="Fun-sCOP-cad">Fun-sCOP-cad</option>
+        <option value="Fun-sCOP-glue">Fun-sCOP-glue</option>
+        <option value="Mistral">Mistral</option>
+        <option value="Sat4j-cp">Sat4j-cp</option>
+        <option value="Sat4j-rs">Sat4j-rs</option>
+        <option value="BTD">BTD</option>
+      </select>
+      <button id="compareButton" type="button">Comparer</button>
+
+  
+    
+
+    <h2>  Nombres de problèmes par logiciels  </h2>
+      <div class="nbproblemes" style="width: 800px;"><canvas id="myChart" ></canvas></div>
+    
+    <h2> Problèmes résolus en secondes </h2>
+    <div class="secondes" style="width: 800px;"><canvas id="myLineChart" ></canvas></div>
+
+  
+
+  <script src="sae.js"></script>
+    <script type="module" src="acquisitions.js"></script>
+
+  
+  
+
+    
+</body>
+</html>
