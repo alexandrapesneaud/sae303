@@ -2,7 +2,7 @@
 
 Composition de l’équipe : Clara Honoré - Alexandra Pesneaud
 
-Les problèmes rencontrés et les solutions trouvées : 
+**Les problèmes rencontrés et les solutions trouvées : **
 
 Grosse difficulté au tout début de la mission qui était de lier le fichier json avec la base de donnée à notre fichier acquisition (fichier de travail).
 
@@ -10,7 +10,7 @@ Puis nous avons eu quelques difficultés avec des erreurs dans le code, mais ce 
 
 Des difficultés à trouver quoi mettre dans les options et savoir quels étaient les paramètres à aller chercher dans le json pour avoir le résultat souhaité.
 
-Les grandes lignes de la visualisation proposée : 
+**Les grandes lignes de la visualisation proposée : **
 
 Nous avons souhaité au tout début proposé une analyse global du sujet avec le taux de réussite en pourcentage sur la globalité de l’échantillon.
 
